@@ -1,0 +1,13 @@
+{
+    // Auto-formatting
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    // Auto-save
+    "files.autoSave": "afterDelay",
+    // Editor settings
+    "editor.tabSize": 4,
+}

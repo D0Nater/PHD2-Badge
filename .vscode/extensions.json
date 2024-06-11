@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        // Linting
+        "DavidAnson.vscode-markdownlint",
+        "yzhang.markdown-all-in-one",
+        "shardulm94.trailing-spaces",
+        // EditorConfig
+        "EditorConfig.EditorConfig",
+        // GitHub
+        "github.vscode-github-actions",
+        "GitHub.vscode-pull-request-github",
+        // Python
+        "ms-python.python",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "ms-python.mypy-type-checker",
+    ]
+}

@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "phd_badge"
+version = "0.1.0"
+description = ""
+authors = ["D0Nater <denaddressforwork@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+requests = "^2.32.2"
+types-requests = "^2.32.0.20240523"
+numpy = "^1.26.4"
+
+[tool.poetry.scripts]
+phd = "phd_badge.__main__:main"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0" # Code formatter
+mypy = "^1" # Static type checking
+isort = "^5.12.0" # Import sorting
+flake8 = "^7.0.0" # Linter
+flake8-docstrings = "^1.6.0" # Docstring linter
+
+
+[tool.black]
+line-length = 120
+target-version = ['py312']
+
+[tool.isort]
+line_length = 120
+atomic = true
+include_trailing_comma = true
+use_parentheses = true
+profile = "black"
+lines_before_imports = 1
+lines_after_imports = 2
+combine_as_imports = true
+multi_line_output = 3
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

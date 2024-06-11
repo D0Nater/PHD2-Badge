@@ -14,7 +14,7 @@ This is a console program designed to interact with the PHD2 badge. It is writte
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/D0Nater/phd_badge.git
+   git clone https://github.com/D0Nater/PHD2-Badge.git
    ```
 
 2. **Install dependencies using `poetry`:**

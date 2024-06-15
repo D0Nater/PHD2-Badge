@@ -1,6 +1,11 @@
 """Main entry point."""
 
-from .cli import cli
+from os import environ
+
+
+environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "1"
+
+from .cli import cli  # noqa: E402
 
 
 def main() -> None:

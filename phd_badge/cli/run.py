@@ -4,8 +4,8 @@ from typing import get_args as get_type_args
 
 import click
 
-from phd_badge.modules import TextModule
-from phd_badge.modules.text.text_module import ModeType
+from phd_badge.modules import SnakeModule, TextModule
+from phd_badge.modules.text.module import ModeType
 
 from .cli import cli
 
@@ -23,4 +23,12 @@ def run() -> None:
 def text_module(text: str, mode: ModeType, delay: float, repeats: int) -> None:
     """Text module."""
     module = TextModule(text, mode, delay, repeats)
+    module.run()
+
+
+@run.command("snake")
+@click.option("--delay", "-d", default=6, help="Delay animation.")
+def snake_module(delay: float) -> None:
+    """Text module."""
+    module = SnakeModule(delay)
     module.run()

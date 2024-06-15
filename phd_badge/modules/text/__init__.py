@@ -1,6 +1,6 @@
 """Text module."""
 
-from .text_module import TextModule
+from .module import TextModule
 
 
 __all__ = ["TextModule"]

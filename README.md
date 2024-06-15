@@ -79,7 +79,7 @@ phd run snake --help
 
 **`--delay` / `-d`**: This option specifies the delay between animation frames in seconds. The default value — `6`.
 
-#### Example for module
+#### Example for snake module
 
 To start a snake game with custom options, you can use the following command:
 

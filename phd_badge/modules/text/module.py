@@ -51,6 +51,13 @@ class TextModule(BaseModule):
                 WORDS["o"](),
                 WORDS["m"](),
             ],
+            ":phd2:": [
+                WORDS["p"](),
+                WORDS["h"](),
+                WORDS["d"](),
+                WORDS["2"](),
+                WORDS["heart"](Pixel(255, 0, 0)),
+            ],
         }
 
         if self._mode not in self._mode_func:

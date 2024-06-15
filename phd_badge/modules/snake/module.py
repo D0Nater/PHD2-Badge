@@ -27,7 +27,7 @@ class SnakeModule(BaseModule):
         self._delay = delay
 
     def run(self) -> None:
-        """Start game."""
+        """Run module."""
         while self._running:
             self.handle_events()
             self.update()

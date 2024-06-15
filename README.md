@@ -49,7 +49,7 @@ phd run text --help
 
 #### Options for text module
 
-**`--text` / `-t`** : This option allows you to specify the text that will be animated. The default value is :zov:. You can use any string, but here are some examples: "phd2", ":zov:", ":svo:", ":mom:".
+**`--text` / `-t`** : This option allows you to specify the text that will be animated. The default value is :zov:. You can use any string, but here are some examples: "i:heart:python", ":phd2:", ":zov:", ":svo:", ":mom:".
 
 **`--mode` / `-m`**: This option sets the animation mode. Default mode — `sliderLeft`. Available modes: `switching` , `sliderUp` , `sliderLeft` .
 
@@ -85,4 +85,28 @@ To start a snake game with custom options, you can use the following command:
 
 ```bash
 phd run snake --delay 7
+```
+
+### Matrix module
+
+The `phd run matrix` command is part of the phd CLI tool, which allows you to run matrix animation with various options. Below is a detailed description of the command and its options.
+
+Using the command:
+
+```bash
+phd run matrix --help
+```
+
+#### Options for matrix module
+
+**`--delay` / `-d`**: This option specifies the delay between animation frames in seconds. The default value — `0.1`.
+
+**`--frequency` / `-f`**: This option specifies the frequency of drops (0 <= n <= 1). The default value — `0.2`.
+
+#### Example for matrix module
+
+To start a matrix animation with custom options, you can use the following command:
+
+```bash
+phd run matrix --delay 0.07 --frequency 0.1
 ```

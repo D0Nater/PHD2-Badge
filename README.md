@@ -59,6 +59,8 @@ phd run text --help
 
 #### Example for text module
 
+[Video 1](./media/text1.mp4)  [Video 2](./media/text2.mp4)
+
 To start a text animation with custom options, you can use the following command:
 
 ```bash
@@ -80,6 +82,8 @@ phd run snake --help
 **`--delay` / `-d`**: This option specifies the delay between animation frames in seconds. The default value — `6`.
 
 #### Example for snake module
+
+[Video](./media/snake.mp4)
 
 To start a snake game with custom options, you can use the following command:
 
@@ -104,6 +108,8 @@ phd run matrix --help
 **`--frequency` / `-f`**: This option specifies the frequency of drops (0 <= n <= 1). The default value — `0.2`.
 
 #### Example for matrix module
+
+[Video](./media/matrix.mp4)
 
 To start a matrix animation with custom options, you can use the following command:
 
